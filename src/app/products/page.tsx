@@ -1,3 +1,11 @@
+import { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: {
+    absolute: "Produtos"
+  }
+}
+
 export default function Products() {
   return (
     <div>
